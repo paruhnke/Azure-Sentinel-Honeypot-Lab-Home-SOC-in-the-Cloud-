@@ -1,9 +1,7 @@
-# Azure Sentinel Honeypot Lab (Home SOC in the Cloud)
+# Azure Sentinel Honeypot Lab
 
 This project is a hands-on cybersecurity lab that simulates a basic Security Operations Center using Microsoft Azure.  
-A Windows virtual machine is intentionally exposed to the public internet as a honeypot to capture real-world attack activity, forward logs to Azure, enrich them with geographic data, and visualize attacker locations using **Microsoft Sentinel**.
-
-> ⚠️ **Important:** This lab intentionally weakens security controls (open NSG rules and disabled Windows Firewall) to generate telemetry. This configuration is for **learning purposes only** and should never be used in production.
+A Windows virtual machine is intentionally exposed to the public internet as a honeypot to capture real-world attack activity, forward logs to Azure, enrich them with geographic data, and visualize attacker locations using Microsoft Sentinel.
 
 ---
 
